@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang='en-US'>
+<title>Enock's profile</title>
+
+<style>
+    /*Style for title*/
+    #id-title{
+        color: red;
+        font-style: inherit;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 900;
+
+    }
+    /*body style*/
+    body{
+        background-color:greenyellow;
+        text-align: center;
+    }
+    /*Inserting textbox for the 3 buttons*/ 
+    .btns{
+        display: flex;
+        justify-content: center;
+    }
+    /*Spacing the 3 buttons*/
+    .btn{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*Centering first paragraph*/
+    .first_p{
+        text-align: center;
+        color: blue;
+    }
+    /*Image style*/
+    .image{
+        width: 600px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Input styles*/
+    .in{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 2px solid magenta;
+        border-radius: 5px;
+    }
+    /*login button*/
+    .log-in{
+        color: magenta;
+        font-size: larger;
+    }
+    /*@nd paragraph*/
+    .like{
+        font-size:normal;
+        color: magenta;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .div1{
+        display: block;
+        
+    }
+    /*Quote style*/
+    .quote{
+        background-color: chocolate;
+        color: white;
+        width: 300px;
+        margin-top: 50pxs;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding-left: 8px;
+    }
+    .list{
+        list-style: none;
+    }
+   
+    
+</style>
+
+
+
+</head>
+<body>
+    
+    <h1 class="title" id="id-title">My profile</h1>
+    <p class="first_p">Hello my name is <b>Enock</b>
+    <br>Excited to meet me?</p>
+<!--division for the three buttons for flexbox-->
+    <div class="btns">
+        <button class="btn">Yes</button>
+        <button class="btn">Somehow</button>
+        <button class="btn">Not really</button>
+    </div>
+    <hr>
+<!--My image-->
+    <img class="image" src="/image/968.jpg" alt='me'>
+    <br>
+    <div class="div1">
+    <p>Press
+        <a href="https://code.visualstudio.com/" target="_blank">here</a>
+        to learnt more about me!<br> Or 
+        <a href="http://127.0.0.1:5500/2.html">here</a>
+        to return to homepage
+    </p>
+    </div>
+    <br>
+    <div class="div1">
+    <p class="log-in">Time to log in:</p>
+    <input type="text" placeholder="Enter USERNAME" class="in">
+    <br>
+    <input type="password" placeholder="Enter password" class="in">
+    <br>
+    <input type="file" placeholder="choose profile" title="Choose profile picture" class="in">
+    <br>
+    <button style="background-color: aquamarine;">Log in</button>
+    </div>
+    <br>
+    <div class="div1">
+    <p class="like">What should you like about me?</p>
+    <ul class="list">
+        <li>Honesty</li>
+        <li>Openess</li>
+        <li>Relatable</li>
+    </ul>
+    <p class="like">What should I like about you?</p>
+    <!--Input for Client details-->
+    <ul style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="list">
+        <li><input type="text"></li>
+        <li><input type="text"></li>
+        <li><input type="text"></li>
+    </ul>
+    <p>Here is the text from frienship.com:</p>
+    <br>
+    <blockquote cite="https://www.bbc.com/sport/horse-racing/68401563">Good friends are those that 
+        are always there when there is need.Such should you desire
+    </blockquote>
+    </div>
+    <hr>
+    <!--Div to enable centering-->
+    <div class="quote">
+        <P>
+            Todays quote:
+            <q>Always be wise in thinking and particular on decisions you make. 
+            Don't be moved around by people!</q>
+        </P>
+    </div>
+</body>
+
+</html>
