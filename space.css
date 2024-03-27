@@ -1,0 +1,61 @@
+/*body styling*/
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url("./image/giphy.gif");
+    background-size: cover;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+/*Styling of text below logo*/
+.main{  
+  padding: 0px 0 50px 0 ;
+  color: #040780;
+  text-shadow: 0px 0px 5px white;
+  height: max-content;
+  margin: 0px;
+  
+  
+}
+/*Button styling*/
+#btn{
+    font-family: inherit;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    width: 100px;
+    border: none;
+    color: inherit;
+    text-shadow: inherit;
+    transform: scale(1);
+    transition: 0.8s;
+    padding: 5px 10px;
+}
+/*Hover effect for the button*/
+#btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+    
+}
+/*Inserting a dowloaded font-family*/
+@font-face{
+    src: url(./SpaceX.ttf);
+    font-family: spacex;
+}
+/*Applying the new font family to the logo*/
+#spx{
+    padding-top: 100px;
+    font-family: spacex;
+    color: cornflowerblue;
+}
+/*Utility class for underlining pat of text*/
+.underline{
+    border-bottom: 4px solid cornflowerblue;
+}
+.tc{
+    margin-bottom: 0px;
+}
+/*Changing the color of letter X inside <span> tag*/
+#white{
+    color: white;
+}

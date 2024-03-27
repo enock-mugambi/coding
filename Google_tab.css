@@ -27,6 +27,9 @@ input{
     border: 1px solid #dfe2dfe5;
     border-radius: 10px;
 }
+input:hover{
+    background-color: antiquewhite;
+}
 /*modifications to both buttons*/
 .buttons{
     display: flex;
@@ -44,6 +47,12 @@ input{
     padding-right: 16px;
     border: 2px solid #dfe1e5;
     border-radius: 4px;
+    transform: scale(1);
+    transition: transform 1s, backgroud-color 0.5s;
+}
+.btn:hover{
+    background-color: aquamarine;
+    transform: scale(1.2);
 }
 .p{
     color:green;

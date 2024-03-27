@@ -1,0 +1,123 @@
+ /*Style for title*/
+ #id-title{
+    color: red;
+    font-style: inherit;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 900;
+
+}
+/*body style*/
+body{
+    background-image: url("./image/background2.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+/*Inserting textbox for the 3 buttons*/ 
+.btns{
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    
+}
+
+/*Spacing the 3 buttons*/
+.btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 2s, color 1s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: cyan;
+
+}
+/*Centering first paragraph*/
+.first_p{
+    text-align: center;
+    color: blue;
+}
+/*Image style*/
+.image{
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: slide-in 3s forwards;
+    box-shadow: 0 0 30px orange;
+
+}
+/*Input styles*/
+.in{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.in:hover{
+    transform:scale(1.3);
+}
+.btn2{
+    background-color: rgb(164, 95, 34);
+    transition: background-color 0.5s;
+    width: 100px;
+    
+}
+.btn2:hover{
+    background-color: rgb(106, 106, 146);
+}
+/*login button*/
+.log-in{
+    color: magenta;
+    font-size: larger;
+}
+/*@nd paragraph*/
+.like{
+    font-size:normal;
+    color: magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.in2{
+    margin: 5px;
+    transition:background-color 0.5s;
+}
+.in2:hover{
+    background-color: blanchedalmond;
+}
+.div1{
+    display: block;
+    
+}
+/*Quote style*/
+.quote{
+    background: linear-gradient(rgb(210, 105, 30), white);
+    color: white;
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 8px;
+    transform: scale(1);
+    transition: background-color 2s, transform 5s, color 3s;
+}
+.quote:hover{
+    background-color: rgb(21, 9, 1);
+    transform: scale(1.5);
+    color: rgb(189, 144, 144);
+}
+.list{
+    list-style: none;
+}
+/*Specifying the animation of the picture*/
+@keyframes slide-in{
+    from{
+            transform: translateX(-100%);
+    }
+    to{
+            transform: translateX(0);
+    }
+}
+
